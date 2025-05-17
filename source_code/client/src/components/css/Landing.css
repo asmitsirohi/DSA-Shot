@@ -1,0 +1,55 @@
+body {
+  background-color: #bcd7f1 !important;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 73px;
+}
+
+.custom_color_navbar {
+  background-color: #8a307f;
+  color: white;
+}
+
+.nav_logo {
+  font-size: 35px !important;
+}
+
+.btn-color {
+  background-color: #bcd7f1 !important;
+}
+
+.btn-color:hover {
+  background-color: #6883bc !important;
+  color: white !important;
+}
+
+.custom_text {
+  color: #6883bc;
+}
+
+.landingPageLoader {
+  height: calc(100vh - 73px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress_color {
+  background-color: #8a307f !important;
+}
+
+.mainSection {
+  min-height: calc(100vh - 135px);
+}
+
+.btn-anotherColor {
+  background-color: #6883bc !important;
+  color: white !important;
+}
+
+.btn-anotherColor:hover {
+  background-color: #91bee7 !important;
+}
